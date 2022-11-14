@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'PingFangSCregular';
+    src: url('../fonts/PingFangSCRegular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'iconfont';
+    src: url('../fonts/iconfont.ttf?t=1634055406345') format('truetype');
+  }
+body{
+    font-family: 'PingFangSCregular';
+}
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+.clearfix {
+    overflow: hidden;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+    overflow: hidden;
+}
+.center-wrap{
+    width: 1152px;
+    margin: 0 auto;
+}
